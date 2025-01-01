@@ -3,7 +3,14 @@
 import streamlit as st
 from prediction_helper import predict
 import prediction_helper
+try:
+    import joblib
+except ImportError:
+    subprocess.run([sys.executable, "-m", "pip", "install", "joblib"])
 
+# Import the necessary libraries
+import streamlit as st
+from prediction_helper import predict
 # Define the page layout
 st.title('Health Insurance Cost Predictor')
 
