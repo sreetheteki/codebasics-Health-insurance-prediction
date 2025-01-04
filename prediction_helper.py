@@ -1,9 +1,9 @@
 import pandas as pd
 import joblib
-model_young = joblib.load ('D:\CODEBASICS\ML_GIT CLONE Health insurance predict\codebasics-Health-insurance-prediction\artifacts\model_young.joblib')
-model_rest = joblib.load('D:\CODEBASICS\ML_GIT CLONE Health insurance predict\codebasics-Health-insurance-prediction\artifacts\model_rest.joblib')
-scaler_young = joblib.load('D:\CODEBASICS\ML_GIT CLONE Health insurance predict\codebasics-Health-insurance-prediction\artifacts\scaler_young.joblib')
-scaler_rest = joblib.load('D:\CODEBASICS\ML_GIT CLONE Health insurance predict\codebasics-Health-insurance-prediction\artifacts\scaler_rest.joblib')
+model_young = joblib.load ('D:/CODEBASICS/ML_GIT CLONE Health insurance predict/codebasics-Health-insurance-prediction/artifacts/model_young.joblib')
+model_rest = joblib.load('D:/CODEBASICS/ML_GIT CLONE Health insurance predict/codebasics-Health-insurance-prediction/artifacts/model_rest.joblib')
+scaler_young = joblib.load('D:/CODEBASICS/ML_GIT CLONE Health insurance predict/codebasics-Health-insurance-prediction/artifacts/scaler_young.joblib')
+scaler_rest = joblib.load('D:/CODEBASICS/ML_GIT CLONE Health insurance predict/codebasics-Health-insurance-prediction/artifacts/scaler_rest.joblib')
 
 def calculate_normalized_risk(medical_history):
     risk_scores = {
