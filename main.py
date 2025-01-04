@@ -83,6 +83,6 @@ input_dict = {
 # Button to make prediction
 if st.button('Predict_premium'):
     prediction = predict(input_dict)
-    st.success(f'Predicted Health Insurance Cost: {prediction}')
+    st.success(f'Predicted Health Insurance Cost per Annum: {prediction}')
 
 
